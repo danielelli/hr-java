@@ -8,7 +8,7 @@ public class Solution {
             for(int i=0;i<3;i++){
                 String s1=sc.next();
                 int x=sc.nextInt();
-                //Complete this line
+                // left-justify string 15 characters, give ints with < 3 digits leading zeros
                     System.out.printf("%-14s %03d%n", s1, x);
             }
             System.out.println("================================");
